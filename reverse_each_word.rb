@@ -1,8 +1,8 @@
 def reverse_each_word(string)
   
-deletion = string.delete(",")
+#deletion = string.delete(",")
   
-arr = deletion.split(' ')
+arr = string.split(' ')
 
 okay = arr.collect{|new| new.reverse}
 

@@ -2,9 +2,9 @@ def reverse_each_word(string)
   
 deletion = string.delete(",")
   
-arr = deletion.split(' ,')
+arr = deletion.split(' ')
 
-arr
+return arr
 
 #arr.collect{|new| new.reverse}
 

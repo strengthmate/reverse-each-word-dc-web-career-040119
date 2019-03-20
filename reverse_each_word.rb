@@ -4,7 +4,7 @@ deletion = string.delete(",")
   
 arr = deletion.split(' ')
 
-okay.collect{|new| new.reverse}
+okay = arr.collect{|new| new.reverse}
 
 return okay
     

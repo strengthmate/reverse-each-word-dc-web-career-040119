@@ -6,6 +6,6 @@ arr = deletion.split(' ')
 
 okay = arr.collect{|new| new.reverse}
 
-return okay.join()
+return okay.join(' ')
     
 end
